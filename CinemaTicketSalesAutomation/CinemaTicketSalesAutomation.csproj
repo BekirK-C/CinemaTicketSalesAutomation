@@ -53,6 +53,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Helper.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Chair.cs" />
     <Compile Include="Models\Movie.cs" />
@@ -84,6 +85,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pictures\3 Aptal.jpg" />
+    <Content Include="Pictures\Geleceğe dönüş.jpg" />
+    <Content Include="Pictures\Jumanji.jpeg" />
+    <Content Include="Pictures\Nefesini tut.jpg" />
+    <Content Include="Pictures\Warcraft.jpg" />
+    <Content Include="Pictures\Yıldızlararsı.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

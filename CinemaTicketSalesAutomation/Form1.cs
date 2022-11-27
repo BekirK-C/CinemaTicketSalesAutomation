@@ -1,4 +1,5 @@
-﻿using CinemaTicketSalesAutomation.Models;
+﻿using CinemaTicketSalesAutomation.Helpers;
+using CinemaTicketSalesAutomation.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,10 +18,10 @@ namespace CinemaTicketSalesAutomation
         {
             InitializeComponent();
         }
-
+        List<Movie> movies;
         private void Form1_Load(object sender, EventArgs e)
         {
-            Movie movie= new Movie();
+            movies = Helper.CreateMovies();
         }
     }
 }
