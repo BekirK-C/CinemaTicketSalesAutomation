@@ -35,9 +35,9 @@ namespace CinemaTicketSalesAutomation.Models
                     session.date = currentDate.ToShortDateString();
                     session.time = currentDate.ToShortTimeString();
                     sessions.Add(session);
-                    currentDate.AddHours(3);
+                    currentDate = currentDate.AddHours(3);
                 }
-                currentDate.AddDays(1);
+                currentDate = currentDate.AddDays(1);
             }
         }
     }
