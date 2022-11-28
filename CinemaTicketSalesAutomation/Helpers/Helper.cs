@@ -12,7 +12,7 @@ namespace CinemaTicketSalesAutomation.Helpers
     {
         public static List<Movie> CreateMovies()
         {
-            string basePath = "C:\\Users\\Bekir\\Desktop\\C#\\17. CinemaTicketSalesAutomation\\CinemaTicketSalesAutomation\\Pictures\\.jpg";
+            string basePath = "C:\\Users\\Bekir\\Desktop\\C#\\17. CinemaTicketSalesAutomation\\CinemaTicketSalesAutomation\\Pictures\\";
             return new List<Movie>()
             {
                 new Movie()
@@ -21,7 +21,7 @@ namespace CinemaTicketSalesAutomation.Helpers
                     category = Category.bilim_kurgu,
                     minute = " 2 saat 49 dk",
                     price = 50,
-                    picturePath = basePath + "yıldızlararası.jpg"
+                    picturePath = basePath + "Yıldızlararsı.jpg"
                 },
                 new Movie()
                 {
@@ -53,7 +53,7 @@ namespace CinemaTicketSalesAutomation.Helpers
                     category = Category.macera,
                     minute = " 1 saat 44 dk",
                     price = 50,
-                    picturePath = basePath + "jumanji.jpg"
+                    picturePath = basePath + "Jumanji.jpeg"
                 },
                 new Movie()
                 {
